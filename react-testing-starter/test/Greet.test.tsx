@@ -2,7 +2,7 @@ import React from 'react'
 //import {it, describe, expect} from 'vitest'
 import { render, screen } from '@testing-library/react' // short cut itr
 import Greet from '../src/components/Greet'
-//import '@testing-library/jest-dom/vitest'
+//import '@testing-library/jest-dom/vitest' 
 
 
 describe('Greet', () => {
