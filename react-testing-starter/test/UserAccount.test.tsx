@@ -14,7 +14,7 @@ describe('UserAccount', () => {
         };
         render(<UserAccounts user={inputData1} />);
         const name = screen.getByText(/Kiran/i);
-        expect(name).toBeInTheDocument;
+        expect(name).toBeInTheDocument();
         expect(name).toHaveTextContent("kiran");
 
     });
@@ -29,6 +29,7 @@ describe('UserAccount', () => {
         const button = screen.getByRole('button')
         console.log(button)
         expect(button).toBeInTheDocument()
+        expect(button).toHaveTextContent(/edit/i);
 
     });
 
