@@ -1,4 +1,5 @@
 import React from "react";
+import {it, describe, expect} from 'vitest'
 import { render, screen } from '@testing-library/react'
 import UserAccounts from '../src/components/UserAccount'
 import { User } from "../src/entities";
